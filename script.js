@@ -9,9 +9,9 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
 // Parameters
-const ballCount = 100;
+const ballCount = 50;
 const ballRadius = 0.2;
-const boxSize = 10;
+const boxSize = 8;
 const balls = [];
 
 // Create Balls
@@ -40,11 +40,6 @@ for (let i = 0; i < ballCount; i++) {
 }
 
 // Lights
-const light = new THREE.PointLight(0xffffff, 1, 100);
-light.position.set(5, 5, 5);
-scene.add(light);
-
-// Lights (Increase intensity)
 const ambientLight = new THREE.AmbientLight(0xffffff, 1.5); // Increase intensity
 scene.add(ambientLight);
 
