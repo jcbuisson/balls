@@ -16,7 +16,6 @@ const balls = [];
 
 // Create Balls
 const ballGeometry = new THREE.SphereGeometry(ballRadius, 32, 32);
-// const ballMaterial = new THREE.MeshStandardMaterial({ color: 0xff0000, roughness: 0.5 });
 const ballMaterial = new THREE.MeshStandardMaterial({
     color: 0xff0000, 
     metalness: 0.3, // Add some reflection
