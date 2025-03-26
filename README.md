@@ -1,4 +1,8 @@
-# Simulation du mouvement des molécules dans un fluide
+# Utilisation de WebGL et du Web Assembly
+
+Simulation du mouvement des molécules dans un fluide. L'affichage 3D utilise WebGL et les calculs de la physique des mouvements
+est accéléré avec WebAssembly
+
 
 ## Version de développement
 
